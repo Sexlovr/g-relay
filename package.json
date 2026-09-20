@@ -1,0 +1,11 @@
+{
+  "name": "g-relay",
+  "version": "1.0.0",
+  "description": "Minimal streaming HTTP relay for Cloudflare Workers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}

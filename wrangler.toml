@@ -1,0 +1,13 @@
+name = "g-relay"
+main = "src/worker.js"
+compatibility_date = "2026-01-15"
+
+# Deploy: npx wrangler deploy  (free tier: 100,000 requests/day)
+#
+# Optional shared secret — requests must then carry ?key=SECRET or
+# X-Proxy-Key: SECRET:
+#   npx wrangler secret put PROXY_KEY
+#
+# Optional extra allowed hostnames (comma-separated):
+#   [vars]
+#   EXTRA_HOSTS = "api.example.com"
