@@ -7,6 +7,10 @@ deployed instance gets its own stable egress. Request and response bodies
 stream straight through (no buffering), so Server-Sent Events and long-lived
 connections work end to end.
 
+A Railway-native twin with the same contract lives at
+[g-relay-railway](https://github.com/Sexlovr/g-relay-railway) — running both
+gives you relays across different egress pools.
+
 ## Deploy
 
 Requires a free Cloudflare account (no credit card, no build step):
